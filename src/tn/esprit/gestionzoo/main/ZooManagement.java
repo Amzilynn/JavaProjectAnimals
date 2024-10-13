@@ -1,15 +1,15 @@
+package tn.esprit.gestionzoo.main;
+
+import tn.esprit.gestionzoo.entities.Animal;
+import tn.esprit.gestionzoo.entities.Zoo;
+
 public class ZooManagement {
 
     public static void main(String[] args) {
         Animal dog = new Animal("Canine", "Snoopy", 2, true);
-
-
         Animal giraffe = new Animal("Giraffidae", "LongNeck", 7, true);
-
         Animal penguin = new Animal("Birds", "Pingu", 3, false);
-
         Animal tiger = new Animal("Big Cats", "Shere Khan", 10, true);
-
 
         Zoo cityZoo = new Zoo("City Zoo", "New York");
         Zoo safariZoo = new Zoo("Safari Park", "Kenya");
@@ -33,6 +33,5 @@ public class ZooManagement {
 
         System.out.println("Removing Penguin: " + cityZoo.removeAnimal(penguin));
         cityZoo.displayAnimals();
-
     }
 }
