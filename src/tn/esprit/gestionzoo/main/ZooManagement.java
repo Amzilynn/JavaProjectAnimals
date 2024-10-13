@@ -1,37 +1,26 @@
 package tn.esprit.gestionzoo.main;
 
-import tn.esprit.gestionzoo.entities.Animal;
-import tn.esprit.gestionzoo.entities.Zoo;
+import tn.esprit.gestionzoo.entities.*;
 
 public class ZooManagement {
 
     public static void main(String[] args) {
-        Animal dog = new Animal("Canine", "Snoopy", 2, true);
-        Animal giraffe = new Animal("Giraffidae", "LongNeck", 7, true);
-        Animal penguin = new Animal("Birds", "Pingu", 3, false);
-        Animal tiger = new Animal("Big Cats", "Shere Khan", 10, true);
+        Aquatic aquaticAnimal = new Aquatic();
+        Dolphin dolphin = new Dolphin();
+        Penguin penguin = new Penguin();
 
-        Zoo cityZoo = new Zoo("City Zoo", "New York");
-        Zoo safariZoo = new Zoo("Safari Park", "Kenya");
+        System.out.println(aquaticAnimal);
+        System.out.println(dolphin);
+        System.out.println(penguin);
 
-        System.out.println(cityZoo.addAnimal(dog));
-        System.out.println(cityZoo.addAnimal(giraffe));
-        System.out.println(cityZoo.addAnimal(penguin));
+        Dolphin speedyDolphin = new Dolphin("Cetacea", "Speedy", 5, true, "Ocean", 25.5f);
+        Penguin deepPenguin = new Penguin("Birds", "Deepy", 3, false, "Polar Regions", 200.0f);
 
-        cityZoo.displayAnimals();
+        System.out.println(speedyDolphin);
+        System.out.println(deepPenguin);
 
-        System.out.println("Searching for Giraffe: " + cityZoo.searchAnimal(giraffe));
-
-        System.out.println("Removing Elephant: " + cityZoo.removeAnimal(dog));
-
-        cityZoo.displayAnimals();
-
-        System.out.println("Adding Tiger: " + cityZoo.addAnimal(tiger));
-        System.out.println("Adding Penguin: " + cityZoo.addAnimal(penguin));
-
-        cityZoo.displayAnimals();
-
-        System.out.println("Removing Penguin: " + cityZoo.removeAnimal(penguin));
-        cityZoo.displayAnimals();
+        aquaticAnimal.swim();
+        speedyDolphin.swim();
+        deepPenguin.swim();
     }
 }

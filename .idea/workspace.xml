@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66589784-42ad-4ec0-9fe0-d4587f08c5e4" name="Changes" comment="Prosit 3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Zoo.java" afterDir="false" />
+    <list default="true" id="66589784-42ad-4ec0-9fe0-d4587f08c5e4" name="Changes" comment="Prosit 4">
+      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Aquatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Dolphin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Terrestrial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zoo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZooManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/main/ZooManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/main/ZooManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/main/ZooManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Prosit2" />
+        <entry key="$PROJECT_DIR$" value="Prosit4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +59,7 @@
     "Application.ZooManagement.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Prosit3",
+    "git-widget-placeholder": "Prosit5",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/IdeaProjects",
     "node.js.detected.package.eslint": "true",
@@ -90,7 +89,7 @@
       <updated>1728507063325</updated>
       <workItem from="1728507064395" duration="4268000" />
       <workItem from="1728548093051" duration="2799000" />
-      <workItem from="1728859297353" duration="611000" />
+      <workItem from="1728859297353" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -124,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728548880985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Prosit 4">
+      <option name="closed" value="true" />
+      <created>1728859953926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728859953926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="prosit 1" />
     <MESSAGE value="Prosit 2" />
     <MESSAGE value="Prosit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prosit 3" />
+    <MESSAGE value="Prosit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prosit 4" />
   </component>
 </project>
