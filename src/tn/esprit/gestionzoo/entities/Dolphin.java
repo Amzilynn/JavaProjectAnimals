@@ -3,12 +3,10 @@ package tn.esprit.gestionzoo.entities;
 public class Dolphin extends Aquatic {
     private float swimmingSpeed;
 
-    public Dolphin() {
-        super();
-    }
+
 
     public Dolphin(String family, String name, int age, boolean isMammal, String habitat, float swimmingSpeed) {
-        super(family, name, age, isMammal, habitat);
+        super(family, name, age, isMammal, habitat,swimmingSpeed);
         this.swimmingSpeed = swimmingSpeed;
     }
 
